@@ -1,0 +1,34 @@
+/*** layout ***/
+#folha { width: 700px; margin: 0 auto; }
+/*** texto ***/
+.texto { text-align: justify; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.center { text-align: center; }
+p { font-size: 12px; margin: 0; line-height:200%; }
+/******* tabela *******/
+.table { margin:0; width: 100%; background-color: transparent; border-collapse: collapse; }
+.table tbody tr td, .table thead tr th { padding: 5px;}
+/* zebra */
+.table-zebra tbody tr:nth-child(odd) { background: #f9f9f9; }
+/* com borda */
+.table-borda {border:1px solid #333;}
+.table-borda tbody tr td, .table-borda thead tr th{ border:1px solid #333;}
+/* sem borda */
+.table-sem-borda {border:none;}
+table.table-sem-borda tbody tr td, table.table-sem-borda thead tr th{ border:none;}
+/***  assinaturas ***/
+.assinatura { width: 700px; overflow: hidden; }
+.box-ass { width: 330px; }
+.campo-ass{margin-top: 20px; border-top: 1px solid #000;}
+/***  floats ***/
+.por-left{float:left;}
+.por-right{float:right;}
+/***  div table hack para pdf ***/
+.div-table{ padding:5px; margin:0; }
+.bord-top{border-top:1px solid #000;}
+.bord-right{border-right:1px solid #000;}
+.bord-bottom{border-bottom:1px solid #000; }
+.bord-left{ border-left:1px solid #000; }
+/*** clear ***/
+.clear{ clear: both; }

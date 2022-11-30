@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0; }
+/*RESET*/
+img { border: none; }
+html { height: 100%; }
+body { height: 100%; }
+/*TUDO*/
+#tudo { min-height: 100%; position: relative;}
+/*********************************************ZEBRA**********************************************/
+.zebraUm { background: #fff }
+.zebraDois { background: #e4e4e4 }
+/********************************************* Loading **********************************************/
+.loading-cep { width: 14px; height: 14px; background: url(../images/preload-sm.gif) no-repeat; }
+/*********************************************ALERTA**********************************************/
+/* Menu Principal */
+header { position:fixed; z-index:10; top:0; width:100%;}
+/************************ conteudo ***************************/
+.conteudo { position: relative; padding-top: 70px; padding-bottom: 30px; }
+/************************HOME***************************/
+#home ul.menu-estilo { list-style: none; }
+#home ul.menu-estilo li { float: left; margin-left: 5px; }
+#home ul.menu-estilo li h4 { text-align: center; }
+#home ul.menu-estilo li a { display: block; width: 100px; height: 100px; border: 2px outset #CCCCCC; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+#home ul.menu-estilo li a:hover { border: 2px inset #CCCCCC; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+/*************Menu estilo*************************/
+ul.menu-estilo li { position: relative; }
+ul.menu-estilo li a { color: #333; text-decoration: none; }
+ul.menu-estilo li a span { display: block; width: 100%; text-align: center; font-weight: bold; position: absolute; bottom: 5px; }
+.cliente-icon { background: url(../images/icones/cliente.png) top no-repeat; }
+.lanchonete-icon { background: url(../images/icones/lanchonete.png) top no-repeat; }
+.estoque-icon { background: url(../images/icones/estoque.png) top no-repeat; }
+.produto-icon { background: url(../images/icones/produto.png) top no-repeat; }
+.historico-icon { background: url(../images/icones/historico.png) top no-repeat; }
+.pedido-icon { background: url(../images/icones/pedido.png) top no-repeat; }
+.juiz-icon { background: url(../images/icones/juiz.png) top no-repeat; }
+.estab-icon { background: url(../images/icones/estab.png) top no-repeat; }
+.boneco-azul-h-icon { background: url(../images/icones/boneco-azul-h.png) top no-repeat; }
+.boneco-verm-h-icon { background: url(../images/icones/boneco-verm-h.png) top no-repeat; }
+.caixa-reg-icon { background: url(../images/icones/caixa-reg.png) top no-repeat; }
+.receber-icon { background: url(../images/icones/receber.png) top no-repeat; }
+.usuario-icon { background: url(../images/icones/usuario.png) top no-repeat; }
+.fornecedor-icon { background: url(../images/icones/fornecedor.png) top no-repeat; }
+.vendedor-icon { background: url(../images/icones/vendedor.png) top no-repeat; }
+.venda-icon { background: url(../images/icones/venda.png) top no-repeat; }
+.contrato-icon { background: url(../images/icones/contrato.png) top no-repeat; }
+.cardapio-icon { background: url(../images/icones/cardapio.png) top no-repeat; }
+.categoria-icon { background: url(../images/icones/categoria.png) top no-repeat; }
+.evento-icon { background: url(../images/icones/evento.png) top no-repeat; }
+.galeria-icon { background: url(../images/icones/galeria.png) top no-repeat; }
+.portifolio-icon { background: url(../images/icones/portifolio.png) top no-repeat; }
+.depoimento-icon { background: url(../images/icones/depoimento.png) top no-repeat; }
+/********************************************** excluir imagens ******************************************************/
+ul.img-lista { border: 2px double #666666; list-style: none; }
+ul.img-lista li { margin-left: 10px; float: left; }
+ul.img-lista li label { position: relative; text-align: center; }
+ul.img-lista li label input { position: absolute; top: 5px; left: 5px; display: block; }
+/**************LOGIN****************/
+.bg-martelo{background:url(../images/martelo_bg_body.jpg) no-repeat center fixed}
+#kl { float: left; }
+#login { margin: 10px auto; max-width: 500px; height: 300px; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; }
+.conteudo { clear: both; padding-left: 10px; }
+/******** Box Flutuante ********/
+.float-box { position: absolute; left: 50%; top: 30%; padding: 10px; display: none; z-index: 1001; }
+.float-box tbody tr:hover { cursor: pointer; opacity: 0.8; filter: Alpha(opacity='70'); }
+.bg-float-box { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #333; opacity: 0.7; filter: Alpha(opacity='70'); z-index: 1000; }
+.select-end { cursor: pointer; }
+.msg-canto { padding: 10px; position: absolute; top: 10px; right: 10px; z-index: 100; }
+/**********************RESETE**************************/
+.clear { clear: both; }
+/*FOOTER*/
+footer { position: absolute; bottom: 0; width: 100%; border-top: #999 5px double;}
+#footer_txt { font: 14px Verdana, Geneva, sans-serif; font-weight: bold; text-align: center; }
+#footer_txt a { color: #333; }
+#footer_txt a:hover { color: #666; }
+/*EDITOR*/
+.block { float: none; display: block; }
+.editor { width: 90%; }
+/*************** PROBLEMA COM BOOTSTRAP FORM INLINE E HORIZONTAL ****************/
+.conteudo .form-horizontal .form-group { margin-left: 0; margin-right: 0; }
+/************ Inones ************/
+.judge-hummer-icon{width:14px;height:14px;background:url(../images/icones/judge-hummer-icon.png) no-repeat}
